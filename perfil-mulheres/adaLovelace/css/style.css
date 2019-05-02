@@ -147,9 +147,7 @@ width: 100%;
 
 /* --- HEADER --- */
 .header-personalidade {
-    background-image:
-
-      url(../imgs/banner.jpg);
+    background-image:url(../imgs/banner.jpg);
     background-position: center;
     display: flex;
     background-size: cover;
@@ -688,6 +686,11 @@ width: 100%;
       align-items: center;
      
       }
+      .ada__text,.maquina__text{
+        margin-left: 65px;
+        width: 393px;
+        padding:11px;
+    }
       .maquina__text-caixa,.ada__text-caixa {
       
         font-size: 13px;
@@ -699,12 +702,9 @@ width: 100%;
       .hr-maquina, .hr-ada {
         display: none;
       }
-      .ada__text,.maquina__text{
-          margin-left: 68px;
-          width: 393px;
-          padding:13px;
-      }
-      .seta_img{
-        width: 10%;
+      
+    .header-personalidade{
+        width:223%;;
     }
+    
 }
