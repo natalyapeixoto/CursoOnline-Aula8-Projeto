@@ -1,0 +1,31 @@
+.secao-autora__about img {
+    border-radius: 8px;
+    width: 75px;
+    height: 75px;
+    margin: 10px;
+}
+
+.header {
+    min-height: 70vh;
+    height: 500px;
+    background: 
+        url(../imgs/banner.png);
+    background-size: cover;
+    filter: contrast(100%);
+    background-position-y:  5%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    padding: 3%;
+    color:blueviolet;
+    justify-content: center;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.rodape {
+    background-color: rgb(103, 69, 130);
+}
